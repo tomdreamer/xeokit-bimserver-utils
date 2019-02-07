@@ -2,6 +2,8 @@
 
 A boilerplate utility that downloads IFC model metadata from BIMServer and writes it out as a JSON file that can be loaded into xeokit for offline BIM viewing.
 
+Tested with [BIMServer V1.5.120](https://github.com/opensourceBIM/BIMserver/releases).
+
 This utility downloads metadata for the latest revision of the given model.
 
 The core utility script is in ````server.js````, which is executed by ````start.js````. This little bit of indirection helps us run this ES6 utility in node.js.
